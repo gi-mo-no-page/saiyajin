@@ -1,0 +1,28 @@
+/* page2のCSS */
+h1{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+  .main {flex-direction: column;
+ }
+ .main .item {
+   width: 100%;
+ }
+}
+
+.main .item {
+  width: 30%;
+}
+
+.title{
+  text-align: center;
+  width: 449px;
+
+}
